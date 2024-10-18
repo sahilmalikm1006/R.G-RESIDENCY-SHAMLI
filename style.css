@@ -466,12 +466,12 @@ header .fa-times{
         width: 90%;
         height: 90%;
     }
-/*    .about .row .image img{
-        height: 90%;
-        width: 90%;
-    }  */
+    .about .row .image img{
+    height: 30vh;
+    width: 25vh;
+    }
     .section-top{
-    width: 390px;
+    width: 385px;
     height: 300px;
     }
 
