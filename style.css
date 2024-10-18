@@ -300,8 +300,8 @@ header .fa-bars{
 
 /* Slide section */
 .section-top{
-    width: 1439px;
-    height: 100vh;
+    width: 700px;
+    height: 70vh;
     overflow: hidden;
     position: relative;
     background-image: url(image6.jpg);
