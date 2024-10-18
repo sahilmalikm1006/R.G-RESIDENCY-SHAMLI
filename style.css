@@ -463,15 +463,15 @@ header .fa-times{
         display: none;
     }
     .contact .row .image img{
-        width: 60%;
-        height: 60%;
+        width: 90%;
+        height: 90%;
     }
     .about .row .image img{
-        height: 60%;
-        width: 60%;
+        height: 90%;
+        width: 90%;
     }
     .section-top{
-    width: 450px;
+    width: 380px;
     height: 300px;
     }
 
