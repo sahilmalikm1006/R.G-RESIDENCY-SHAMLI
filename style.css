@@ -21,10 +21,7 @@
 html{
     font-size: 62.05%;
 }
-body{
-    background: #3333;
-    height: 300px;
-}
+
 .heading{
     font-size: 4rem;
     color: var(--pink);
@@ -209,14 +206,75 @@ header .fa-bars{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: .2rem;
 }
-
+.about .row .image{
+    height: 45vh;
+    width: 80vh;
+    border-radius: 5rem;
+    overflow: hidden;
+    position: relative;
+    background-image: url(image6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 30s infinite ease-in-out;
+}
+@keyframes change {
+    0%{
+        background-image: url(park\ girl3.jpg);
+    }
+    10%{
+        background-image: url(gym.webp);
+    }
+    20%{
+        background-image: url(park1.jpg);
+    }
+    30%{
+        background-image: url(waters2.webp);
+    }
+    40%{
+        background-image: url(park1.jpg);
+    }
+    50%{
+        background-image: url(park2.jpg);
+    }
+    60%{
+        background-image: url(road5.jpg);
+    }
+    70%{
+        background-image: url(gym\ 2.webp);
+    }
+    80%{
+        background-image: url(Electric.jpg);
+    }
+    90%{
+        background-image: url(watwer\ s.webp);
+    }
+    100%{
+        background-image: url(park6.jpg);
+    }
+    
+}
 .about .row .content{
     padding-left: 5rem;
 }
-.about .row .content h2{
+.about .row .facilities h2{
+    font-size: 2.5rem;
+    color: gold;
+    padding-right: 200px;
+ 
+}
+.about .content h3{
     font-size: 3rem;
     color: var(--pink);
+}
+.about .row .content p{
+    font-size: 12rem;
+    color: #999;
+    padding: 1rem 0;
 }
 
 
@@ -282,7 +340,7 @@ header .fa-bars{
 
 /* Slide section */
 .section-top{
-    width: 1339px;
+    width: 1349px;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -292,41 +350,41 @@ header .fa-bars{
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 10s infinite ease-in-out;
+    animation: change 30s infinite ease-in-out;
 }
 @keyframes change {
     0%{
-        background-image: url(image7.jpg);
+        background-image: url(park\ girl3.jpg);
     }
     10%{
-        background-image: url(image2.jpg);
+        background-image: url(gym.webp);
     }
     20%{
-        background-image: url(image3.jpg);
+        background-image: url(park1.jpg);
     }
     30%{
-        background-image: url(image4.jpg);
+        background-image: url(waters2.webp);
     }
     40%{
-        background-image: url(image5.jpg);
+        background-image: url(park1.jpg);
     }
     50%{
-        background-image: url(image6.jpg);
+        background-image: url(park2.jpg);
     }
     60%{
-        background-image: url(image7.jpg);
+        background-image: url(road5.jpg);
     }
     70%{
-        background-image: url(image8.jpg);
+        background-image: url(gym\ 2.webp);
     }
     80%{
-        background-image: url(image9.jpg);
+        background-image: url(Electric.jpg);
     }
     90%{
-        background-image: url(image10.jpg);
+        background-image: url(watwer\ s.webp);
     }
     100%{
-        background-image: url(image8.jpg);
+        background-image: url(park6.jpg);
     }
     
 }
@@ -334,21 +392,8 @@ header .fa-bars{
 /* Slide section End */
 
 
-.content1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
 
-}
-.content1 a{
-    background-color: #ffd77d;
-    padding: 10px 24px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
-}
+
 
 /* footer section */
 .footer{
@@ -449,7 +494,7 @@ header .fa-times{
         height: 90%;
     }
     .about .row .image img{
-    height: 30vh;
+    height: 25vh;
     width: 25vh;
     }
     .section-top{
@@ -550,5 +595,5 @@ header .nav-toggle{
 
 
 .about{
-    background-color: aqua;
+    background-color: greenyellow;
 }
