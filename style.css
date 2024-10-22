@@ -210,34 +210,16 @@ header .fa-bars{
     justify-content: center;
     align-items: center;
 }
-.about .row .image img{
-    height: 70vh;
-    width: 50vh;
-}
+
 .about .row .content{
     padding-left: 5rem;
 }
-.about .row .content h3{
+.about .row .content h2{
     font-size: 3rem;
     color: var(--pink);
 }
-.about .row .content p{
-    font-size: 1.6rem;
-    color: #999;
-    padding: 1rem 0;
-}
-.about .row .content button{
-    font-size: 3.5rem;
-    width: 17rem;
-    background: var(--violet);
-    color: #fff;
-    border: none;
-    border-radius: 5rem;
-    box-shadow: 0.3rem 1rem rgba(0 , 0, 0, .3);
-    cursor: pointer;
-    transition: .2s;
-    font-size: 2rem;
-}
+
+
 
 
 
