@@ -220,9 +220,9 @@ header .fa-bars{
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 30s infinite ease-in-out;
+    animation: facilities 30s infinite ease-in-out;
 }
-@keyframes change {
+@keyframes facilities {
     0%{
         background-image: url(park\ girl3.jpg);
     }
@@ -495,11 +495,14 @@ header .fa-times{
         height: 90%;
     }
     .about .row .image img{
-    height: 25vh;
-    width: 33vh;
+    height: 15vh;
+    width: 40vh;
     }
     .about .row .facilities h2{
-     font-size: 1rem;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #DBEBC0;
     }
     .section-top{
     width: 385px;
