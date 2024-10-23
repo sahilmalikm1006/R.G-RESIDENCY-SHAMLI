@@ -496,13 +496,13 @@ header .fa-times{
     }
     .about .row .image img{
     height: 15vh;
-    width: 40vh;
+    width: 15vh;
     }
     .about .row .facilities h2{
     font-size: 2rem;
     display: flex;
-    flex-wrap: nowrap;
-    color: #DBEBC0;
+    flex-wrap: wrap;
+    color: orange;
     }
     .section-top{
     width: 385px;
