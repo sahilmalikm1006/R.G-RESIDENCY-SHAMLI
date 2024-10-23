@@ -262,7 +262,7 @@ header .fa-bars{
     padding-left: 5rem;
 }
 .about .row .facilities h2{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: gold;
     padding-right: 200px;
  
@@ -318,7 +318,7 @@ header .fa-bars{
 .contact .row .form-container textarea{
     height: 20rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     resize: none;
 }
 
@@ -494,9 +494,11 @@ header .fa-times{
         height: 90%;
     }
     .about .row .image img{
-    height: 25vh;
-    width: 25vh;
+    height: 20;
+    width: 33vh;
     }
+    .about .row .facilities h2{
+     font-size: 1.5rem;
     .section-top{
     width: 385px;
     height: 300px;
