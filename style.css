@@ -306,7 +306,7 @@ header .fa-bars{
     background: #fff;
     border: none;
     border-radius: 5rem;  
-    padding: 0 1rem;
+    padding: 1rem;
     margin: 1rem 0;
     color: var(--pink);
     font-size: 1.7rem;
@@ -351,6 +351,7 @@ header .fa-bars{
     text-align: center;
     justify-content: center;
     animation: change 30s infinite ease-in-out;
+    curser: pointer;
 }
 @keyframes change {
     0%{
@@ -494,11 +495,12 @@ header .fa-times{
         height: 90%;
     }
     .about .row .image img{
-    height: 20;
+    height: 25vh;
     width: 33vh;
     }
     .about .row .facilities h2{
-     font-size: 1.5rem;
+     font-size: 1rem;
+    }
     .section-top{
     width: 385px;
     height: 300px;
