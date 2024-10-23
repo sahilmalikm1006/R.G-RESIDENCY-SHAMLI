@@ -354,37 +354,37 @@ header .fa-bars{
 }
 @keyframes change {
     0%{
-        background-image: url(park\ girl3.jpg);
+        background-image: url(image1.jpg);
     }
     10%{
-        background-image: url(gym.webp);
+        background-image: url(image7.jpg);
     }
     20%{
-        background-image: url(park1.jpg);
+        background-image: url(image8.jpg);
     }
     30%{
-        background-image: url(waters2.webp);
+        background-image: url(image2.jpg);
     }
     40%{
-        background-image: url(park1.jpg);
+        background-image: url(park6.jpg);
     }
     50%{
-        background-image: url(park2.jpg);
+        background-image: url(image5.jpg);
     }
     60%{
-        background-image: url(road5.jpg);
+        background-image: url(image4.jpg);
     }
     70%{
-        background-image: url(gym\ 2.webp);
+        background-image: url(image6.jpg);
     }
     80%{
-        background-image: url(Electric.jpg);
+        background-image: url(park1.jpg);
     }
     90%{
         background-image: url(watwer\ s.webp);
     }
     100%{
-        background-image: url(park6.jpg);
+        background-image: url(park girl3.jpg);
     }
     
 }
